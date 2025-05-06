@@ -15,7 +15,7 @@ Some of the ideas for the templating of the install came from this post
 # Introduction
 
 
-- This page will document an example KVM XML template (this one has configurations that optimize the virtual machine for Windows 11) which will be used to produce an XML template which will define the virtual machine using a script that also creates the associated virtual hard drive
+- This page will document an example KVM XML templates for Windows and Linux (the Windows one has configurations that optimize the virtual machine for Windows 11) which will be used to produce an XML template which will define the virtual machine using a script that also creates the associated virtual hard drive
 - The XML example template is shown below
 	- Make note of the variables in the XML file
 		- ${KVM_VM_NAME}
