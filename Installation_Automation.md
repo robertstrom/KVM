@@ -463,7 +463,7 @@ read -p 'Please enter the size of virtual hard disk (how many GB): ' KVM_HD_SIZE
 
 rm -rf $KVM_VM_NAME.xml
 
-sed "s|\${KVM_VM_NAME}|$KVM_VM_NAME|g" kvm_xml_template.xml > $KVM_VM_NAME.xml 
+sed "s|\${KVM_VM_NAME}|$KVM_VM_NAME|g" kvm_xml_template_windows.xml > $KVM_VM_NAME.xml 
 sed -i "s|\${KVM_VM_MEMORY}|$KVM_VM_MEMORY|g" $KVM_VM_NAME.xml
 sed -i "s|\${KVM_VM_CPUS}|$KVM_CPUS|g" $KVM_VM_NAME.xml 
 sed -i "s|\${KVM_INSTALL_ISO}|$KVM_INSTALL_ISO|g" $KVM_VM_NAME.xml
